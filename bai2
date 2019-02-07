@@ -1,0 +1,64 @@
+local({pkg <- select.list(sort(.packages(all.available = TRUE)),graphics=TRUE)
+if(nchar(pkg)) library(pkg, character.only=TRUE)})
+?z.test
+n <- 100
+x <- rnomrm(n,mean=1.6,sd=0.05)
+x <- rnorm(n,mean=1.6,sd=0.05)
+x
+set.seed(1)
+n <- 100
+x <- rnorm(n, mean =1.6, sd = 0.05)
+x
+mean(x)
+sd(x)
+p <- 1- pnorm(1.7, mean =1.6, sd=0.05)
+p
+x[x>=1.7]
+length(x[x>=1.7])/length(x)
+gama <- 95/100
+gama
+anpha <- 1- gama
+anpha
+qnorm(1 - anpha/2)
+ep <- 
+exit
+ep <- qnorm(1-anpha/2)*0.05/sqrt(length(x))
+ep
+mean(x) + c(-ep,ep)
+z.test(x,sigma.x=0.05))
+z.test(x,sigma.x=0.05)
+z.test(x,sigma.x=0.05,conf.level = 0.99)
+ph <- length(x[x>=1.7])/length(x)
+ph
+ep <- qnorm(1-anpha/2)*sqrt(ph *(1-ph)/length(x))
+ep
+ph + c(-ep,ep)
+prop.test(length(x[x>=1.7]),length(x))
+z <- (mean(x) -1.6 / 0.05*sqrt(length(x))
+exit
+z <- (mean(x) -1.6) /0.05*sqrt(length(x))
+z
+z1 <- pnorm(1-anpha/2)
+z1
+z1 <- qnorm(1-anpha/2)
+z1
+abs(z) >= z1
+pvalue <- 2*(1-pnorm(z))
+pvalue
+z.test(x, sigma=0.05,mu=1.6)
+z.test(x, sigma.x=0.05,mu=1.6)
+z.test(x, sigma.x=0.05,mu=1.6, alternative="less")
+z.test(x, sigma.x=0.05,mu=1.6, alternative="greater")
+ep <- qt(1-anpha/2,df=n-1)*sd(x)/sqrt(n)
+ep
+mean(x) + c(-ep,ep)
+t.test(x)
+t.test(x,mu=1.6)
+t.test(x,mu=1.6,conf.level = 0.99, alternative="greater")
+xnu <- rnorm(50,mean = 1.5,sd=0.05)
+nam <- rnorm(50,mean = 1.5,sd=0.05)
+nam <- rnorm(50,mean = 1.6,sd=0.05)
+nam
+nu <- rnorm(50,mean = 1.5,sd=0.05)
+nu
+z.test(nu, sigma.x=0.05,nam,sigma.y=0.05)

@@ -1,0 +1,82 @@
+x <-(1.5,1.6,1.7)
+x <- c(1.5,1.6,1.7)
+x
+x^2
+x <- 1.5
+x
+x/2
+x%%2
+x/2
+x <- rnom(10)
+x <- rnorm(10)
+x
+my object <- rnorm(10)
+my.object <- rnorm(10)
+My.object.u <- 15
+my.object.L <- 5
+my.object.L + Myobject.u
+my.object.L + My.object.u
+x <- c(1.5,1.6,1.7,1.5)
+x
+y <- c(45,65,70,50)
+y
+sample <- data.frame(x,y)
+sample
+sumary(sample)
+sumary (sample)
+help.start()
+summary(sample)
+total <- read(total.csv)
+total <- read.cvs(total.csv)
+total <- read.csv(total.csv)
+total <- read.csv(total.csv)
+total <- read.csv("total.csv")
+names(total)
+actach(total)
+attach(total)
+KL
+summary(KL)
+factory(KL)
+fatory(KL)
+fator(KL)
+factor(KL)
+KL <- factor(KL) 
+summary(KL)
+sumary(age)
+summary(age)
+length(age)
+min(age)
+max(age)
+median(age)
+var(age)
+sd(age)
+dim(total)
+mean(age)
+summary(total)
+summary(KL)
+KL.freq <- table(KL)
+barplot(KL..freq)
+barplot(KL.freq)
+barplot(table(KL))
+KL <- factor(KL)
+summary(KL)
+barplot(table(age))
+pie(KL.freq)
+pie(KL.freq,main="Bieu do Benh")
+?pie
+names(total)
+hist(age)
+age
+sort(age)
+boxplot(age)
+boxplot(tPSA)
+boxplot(tPSA)
+boxplot(fPSA)
+boxplot(fPSA-KL)
+boxplot(fPSA~KL)
+KL
+fPSA
+pi
+pnorm(0.09,mean=0,sd=1)
+qnorm(0.5358564,mean=0,sd=1)
+qnorm(0.5358564)
